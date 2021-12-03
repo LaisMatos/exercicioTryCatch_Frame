@@ -58,6 +58,7 @@ public class Arquivo {
 				//loop para ler (percorrer) cada linha do texto
 				while(linha != null) {
 					
+				// o "\n" mostra o fim da linha marcando qnd começa um paragrafo
 					conteudo += linha + "\n";
 					linha = lerArquivo.readLine();
 					
